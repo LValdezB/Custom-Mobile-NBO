@@ -13,8 +13,8 @@ UI.Button("Stop Cave/Target Bot", function()
       TargetBot.setOn()
    end
   end)
-  UI.Separator()
-  ---Bug map mobile
+UI.Separator()
+--Bug map mobile
 local bugMapMobile = {};
 
 local cursorWidget = g_ui.getRootWidget():recursiveGetChildById('pointer');
