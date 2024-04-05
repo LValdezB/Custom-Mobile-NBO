@@ -934,3 +934,7 @@ ui.alerts.onClick = function(widget)
   alarmsWindow:raise()
   alarmsWindow:focus()
 end
+
+UI.Separator()
+UI.Label("Custom by: Valdez")
+UI.Separator()
